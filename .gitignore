@@ -1,0 +1,128 @@
+# =======================================
+# Flutter & Dart
+# =======================================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+.pub-cache/
+build/
+coverage/
+!**/lib/**/generated_plugin_registrant.dart
+
+# Flutter specific build outputs
+**/doc/api/
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/Flutter.framework/
+**/ios/Flutter/Flutter.podspec
+**/ios/.symlinks/
+**/ios/Pods/
+**/macos/Pods/
+**/macos/.symlinks/
+**/windows/flutter/ephemeral/
+**/linux/flutter/ephemeral/
+**/web/.dart_tool/
+**/web/.firebase/
+
+# Generated files for Firebase or similar
+firebase_app_id_file.json
+google-services.json
+GoogleService-Info.plist
+
+# =======================================
+# Android
+# =======================================
+*.apk
+*.aar
+*.iml
+*.dex
+*.class
+*.log
+android/.gradle/
+android/local.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/key.properties
+.gradle/
+gradle-wrapper.jar
+gradlew
+gradlew.bat
+
+# =======================================
+# iOS / macOS
+# =======================================
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+*.xccheckout
+*.xcworkspace
+*.xcscmblueprint
+*.xcuserdatad
+DerivedData/
+Pods/
+.idea/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/.symlinks/
+ios/Pods/
+ios/Runner/GeneratedPluginRegistrant.*
+
+# =======================================
+# VSCode / IntelliJ / JetBrains
+# =======================================
+.idea/
+*.iml
+*.ipr
+*.iws
+# Uncomment if you don’t want local VSCode configs
+#.vscode/
+
+# =======================================
+# Miscellaneous
+# =======================================
+*.log
+*.tmp
+*.swp
+*.lock
+*.pyc
+*.class
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# =======================================
+# Obfuscation & Symbolication
+# =======================================
+app.*.symbols
+app.*.map.json
+symbols/
+
+# =======================================
+# Environment / Secrets
+# =======================================
+.env
+.env.*
+*.keystore
+*.jks
+*.pem
+*.p12
+*.key
+*.crt
+*.der
+
+# =======================================
+# Main Data Files (Local Only)
+# =======================================
+main.dat
+assets/temp/
+assets/test_data/
